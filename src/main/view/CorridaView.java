@@ -29,7 +29,7 @@ public class CorridaView {
 
         for (int i = 0; i < distanciaMaxima; i++) {
             if (i == posicao) {
-                pista.append("#");
+                pista.append("🚗");
             } else {
                 pista.append(" ");
             }
